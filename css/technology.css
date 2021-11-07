@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
+  padding: 25px 0 0 75px;
+  color: white;
+}
+
+hr{
+  border-top: 2px solid gray;
+  width: 450px;
+  margin-left: 80px;
+}
+h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 3px;
+  font-size: 29px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+h4{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #FFFFFF80;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+}
+h3{
+  font-size: 3.6vw;
+  letter-spacing: 3.38px;
+  font-family: 'Bellefair', serif;
+  color: white;
+}
+p{
+  font-size: 1.25vw;
+  line-height: 2;
+  font-family: 'Barlow', sans-serif;
+  color: #D0D6F9;
+}
+.header img{
+  height: 48px;
+  width: 48px;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+.navbar-nav {
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  background-color: transparent;
+}
+}
+.navbar-nav{
+  height: 100px;
+  width: 100%;
+}
+.nav-link{
+height: 100%;
+display: flex;
+align-items: center;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 1.0625em;
+letter-spacing: 2px;
+}
+.nav-link:hover{
+  border-bottom: 1px solid white;
+}
+.active{
+  border-bottom: 1px solid white;
+}
+.item0{
+  margin-left: 40px;
+  margin-right: 55px;
+}
+.item2{
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.details{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding-top: 100px;
+}
+button{
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-family: 'Bellefair', serif;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+.current{
+  background-color: white;
+  color: black;
+}
+.image{
+  text-align: right;
+}
+.image img{
+  width: 70%;
+}
+button:hover{
+  border: 2px solid white;
+}
