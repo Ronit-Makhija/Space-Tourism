@@ -125,6 +125,7 @@ h2{
   }
   .details hr{
     margin-top: 30px;
+    width: auto;
   }
   .image{
     text-align: center;
