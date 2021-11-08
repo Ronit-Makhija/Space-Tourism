@@ -7,6 +7,12 @@ body{
   padding: 25px 0 0 75px;
   color: white;
 }
+.navbar-toggler{
+  border: 0;
+}
+.navbar-toggler:hover{
+  border: 0;
+}
 
 hr{
   border-top: 2px solid gray;
@@ -108,4 +114,69 @@ button{
 }
 button:hover{
   border: 2px solid white;
+}
+
+@media screen and (max-width: 768px){
+  .header hr{
+    width: 0;
+  }
+  body{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 0;
+    text-align: center;
+    background-image: url(../assets/technology/background-technology-mobile.jpg);
+    background-size: cover;
+  }
+  h5{
+    margin-left: 0;
+  }
+  .main{
+    display: block;
+  }
+  .details{
+    display: block;
+  }
+  h3{
+    font-size: 2em;
+  }
+  p{
+    font-size: 0.9em;
+  }
+  button{
+    height: 70px;
+    width: 70px;
+  }
+  .image{
+    text-align: center;
+  }
+  .image img{
+    height: 270px;
+  }
+  .item0{
+    margin: 0;
+  }
+  .item2{
+    margin: 0;
+  }
+  .collapse{
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 200px;
+  }
+  .navbar-nav{
+      margin: 0;
+      padding: 0;
+
+      width: 120px;
+  }
+  .nav-link{
+        font-size: 0.8em;
+  }
 }
