@@ -152,6 +152,7 @@ line-height: 1;
     padding-bottom: 30px;
     padding-right: 25px;
     background-image: url(../assets/home/background-home-mobile.jpg);
+    background-size: cover;
   }
   .item0{
     margin: 0;
@@ -185,10 +186,11 @@ line-height: 1;
     flex-direction: column;
   }
   p{
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .explore{
     height: 140px;
     width: 140px;
+    font-size: 1.2em;
   }
 }

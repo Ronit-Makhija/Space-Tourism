@@ -103,3 +103,59 @@ h2{
 .distance{
   margin-right: 60px;
 }
+
+@media screen and (max-width: 768px){
+  .header hr{
+    width: 0;
+  }
+  .main{
+    display:block;
+    margin-top: 20px;
+  }
+  .destination{
+    font-size: 1.2em;
+  }
+  .image{
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .image img{
+    height: 200px;
+    width: 200px;
+  }
+  body{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    background-image: url(../assets/destination/background-destination-mobile.jpg);
+    background-size: cover;
+    text-align: center;
+  }
+  .item0{
+    margin: 0;
+  }
+  .item2{
+    margin: 0;
+  }
+  .collapse{
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 200px;
+  }
+  .navbar-nav{
+      margin: 0;
+      padding: 0;
+
+      width: 120px;
+  }
+  .nav-link{
+        font-size: 0.8em;
+  }
+}
